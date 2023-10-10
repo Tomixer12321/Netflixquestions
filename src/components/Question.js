@@ -4,7 +4,7 @@ import {useState} from "react"
 const Question=({title,info})=>{
     const [show,setShow]=useState(false)
 
-    return <div>
+    return <div className="one-question">
         <section>
             <h2>{title}</h2>
             <button onClick={()=>setShow(!show)}>odpovied</button>
